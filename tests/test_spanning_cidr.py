@@ -1,4 +1,4 @@
-from pnetmask import spanning_cidr
+from spanning_cidr import spanning_cidr
 
 def test_address_empty():
     assert spanning_cidr([]) == None
